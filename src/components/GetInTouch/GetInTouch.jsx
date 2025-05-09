@@ -65,12 +65,12 @@ const GetInTouch = () => {
         </h1>
         <div className="flex justify-center items-center gap-4  h-14 w-max">
           <div className="h-10 w-10 text-red-500 hover:h-14 hover:w-14 transition-all duration-300 cursor-pointer flex justify-center items-center rounded-full">
-            <a href="mailto:rajuniranjan1910@gmail.com">
+            <a href="mailto:shakilaaask@gmail.com">
               <Mail />
             </a>
           </div>
           <div className="h-10 w-10 text-blue-500   hover:h-14  hover:w-14 transition-all duration-300 cursor-pointer flex justify-center items-center rounded-full">
-            <Link href="https://www.linkedin.com/in/raju-niranjan/">
+            <Link href="https://www.linkedin.com/in/shakilashaik/">
               <LinkedInLogoIcon />
             </Link>
           </div>

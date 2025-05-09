@@ -69,12 +69,12 @@ const AboutMe = () => {
               <span className="font-bold">
                 <BubbleText text="Full-Stack Developer" />
               </span>{" "}
-              with expertise in React.js, Next.js, TailWindCSS, Redux, I craft
-              intuitive web experiences that exceed user expectations. My skills
-              span across the entire stack, including Node.js, Express.js and
-              MongoDB, enabling me to architect scalable solutions. I thrive on
-              continuous learning, collaboration, and delivering projects that
-              innovate and transform digital experiences.
+              a passionate full-stack developer with 1 year of experience in
+              building and deploying modern, production-ready web applications
+              and Building robust backends, integrating secure authentication,
+              and deploying services on AWS using Docker and CI/CD pipelines.
+              I’m comfortable working across the entire tech stack and love
+              solving real-world problems with clean, scalable code.
             </h1>
           </div>
           <div className="flex items-center gap-4 md:h-14 w-max">
@@ -109,7 +109,7 @@ const AboutMe = () => {
               <Image
                 className="z-10 absolute top-1 right-0"
                 src={Raju}
-                alt="user_Raju"
+                alt="user_shammu"
                 width={300}
                 height={300}
               />
@@ -137,12 +137,9 @@ const AboutMe = () => {
                 <ul className="text-[#f6eee1] flex justify-center gap-2 flex-col">
                   <li className="flex gap-2 items-center">
                     <Mail />
-                    <span>rajuniranjan1910@gmail.com</span>
+                    <span>shakilaaask@gmail.com</span>
                   </li>
-                  <li className="flex gap-2 items-center">
-                    <Phone />
-                    <span>+91-9849592791</span>
-                  </li>
+
                   <li className="flex gap-2 items-center">
                     <MapPin />
                     <span>Hyderabad, Telangana.</span>

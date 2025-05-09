@@ -2,7 +2,7 @@ import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
-import TrendSet from "@/assets/projectImgs/trendset.png";
+import TrendSet from "@/assets/clone.png";
 import Mentorsklub from "@/assets/projectImgs/mentorsklub.png";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 // import TrendSet from "@/assets/projectImgs/trendset.png";
@@ -14,16 +14,14 @@ const projects = [
       "A full-stack e-commerce solution with user authentication, product management, and payment integration.",
     technologies: [
       "React",
-      "Next.js",
       "Redux Toolkit",
       "Node.js",
       "MongoDB",
       "Express.js",
       "Tailwind CSS",
-      "Shadcn/ui",
     ],
-    liveUrl: "https://trendsetnext.vercel.app/",
-    githubUrl: "https://github.com/RajuNiranjan/ecommerce_next_frontend",
+    liveUrl: "https://frontend-clone-sandy.vercel.app/",
+    githubUrl: "https://github.com/shakilaShaik/Blinkit-clone",
     imageUrl: TrendSet,
   },
   {

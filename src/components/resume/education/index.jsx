@@ -22,7 +22,7 @@ const Education = () => {
                   Jawaharlal Nehru Technological University Kakinada
                 </h3>
                 <p className="mb-4  text-base font-normal">
-                  Electrical and Electronics Engineering
+                  Electronics And Communication Engineering
                 </p>
               </div>
             </div>
@@ -35,7 +35,7 @@ const Education = () => {
               </time>
               <div className="-mt-2 w-full">
                 <h3 className="text-sm md:text-xl font-semibold ">
-                  Sri Gayatri Junior College
+                  pallotti Junior College
                 </h3>
                 <p className="mb-4  text-base font-normal">MPC</p>
               </div>
@@ -49,7 +49,7 @@ const Education = () => {
               </time>
               <div className="-mt-2 w-full">
                 <h3 className="text-sm md:text-xl font-semibold ">
-                  Naveena High School
+                  Sri Rama Krishna Hindu High School
                 </h3>
                 <p className="mb-4  text-base font-normal">Class - X</p>
               </div>

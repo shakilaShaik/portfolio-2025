@@ -9,7 +9,7 @@ const NavTextAnimation = () => {
   );
 };
 
-const TARGET_TEXT = "NIRANJAN RAJU";
+const TARGET_TEXT = "SHARMILA";
 const CYCLES_PER_LETTER = 2;
 const SHUFFLE_TIME = 50;
 const RELOAD_INTERVAL = 5000;
