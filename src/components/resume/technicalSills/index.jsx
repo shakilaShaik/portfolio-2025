@@ -22,43 +22,43 @@ import TextAnimation from "@/components/TextAnimations";
 
 const skillsData = [
   { id: 1, component: Reactjs, color: "bg-blue-400 rounded-md" },
-  { id: 2, component: Next, color: "bg-black rounded-md" },
+
   { id: 3, component: JS, color: "bg-[#fdad16] rounded-md" },
   { id: 4, component: Ts, color: "bg-blue-400 rounded-md" },
   { id: 5, component: Redux, color: "text-white bg-violet-500 rounded-md" },
   { id: 6, component: Tailwind, color: "bg-blue-400 rounded-md" },
-  { id: 7, component: Boot, color: "bg-violet-500 rounded-md" },
+
   { id: 8, component: Node, color: "bg-green-800 text-green-500 rounded-md" },
   { id: 9, component: EX, color: "bg-black rounded-md" },
   { id: 10, component: Nest, color: "bg-red-500 rounded-md" },
   { id: 11, component: Py, color: "bg-yellow-400 text-blue-600 rounded-md" },
-  { id: 12, component: Mui, color: "bg-blue-600 rounded-md" },
+
   { id: 13, component: DB, color: "bg-green-600 rounded-md" },
   { id: 14, component: Sql, color: "bg-blue-600 rounded-md" },
   { id: 15, component: Git, color: "bg-orange-600 rounded-md" },
-  { id: 16, component: Linux, color: "bg-[#fdad16] text-black rounded-md" },
+
   { id: 17, component: HTML, color: "bg-orange-600 rounded-md" },
   { id: 18, component: Css, color: "bg-blue-600 rounded-md" },
 ];
 
 const skillsTextData = [
   "React.js",
-  "Next.js",
+  "Java",
   "JavaScript",
   "Typescript",
   "Redux",
   "Redux Toolkit",
   "Node.js",
   "Express.js",
-  "Nest.js",
+  "postgres",
   "MongoDB",
   "SQL",
   "Python",
   "RESTful API",
   "TailwindCSS",
-  "Material UI",
-  "Shadcn/ui",
-  "linux",
+  "springboot",
+  "Hibernate",
+  "Git",
 ];
 
 const shuffle = (array) => {

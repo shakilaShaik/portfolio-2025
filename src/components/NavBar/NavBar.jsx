@@ -90,7 +90,7 @@ const NavBar = () => {
                       <div />
                     </div>
                     <div className="w-full p-4 ">
-                      <h1>&copy; 2023 Niranjan Raju. All rights reserved.</h1>
+                      <h1>&copy; 2025 sharmila. All rights reserved.</h1>
                     </div>
                   </SheetDescription>
                 </SheetHeader>
