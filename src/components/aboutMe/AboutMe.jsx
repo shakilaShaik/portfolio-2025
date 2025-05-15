@@ -44,8 +44,7 @@ const BubbleText = ({ text }) => {
       className="text-xl tracking-wide"
       key={idx}
       ref={(el) => (refs.current[idx] = el)}
-      style={hoverTextStyle}
-    >
+      style={hoverTextStyle}>
       {child}
     </span>
   ));
@@ -95,7 +94,7 @@ const AboutMe = () => {
                 </Link>
               </div>
             </div>
-            <Link href="/resume/resume.pdf" download="download">
+            <Link href="/resume.pdf" download="download">
               <Button className="p-2 border border-yellow-500 text-yellow-500 hover:text-black hover:bg-yellow-500 transition-all duration-500 rounded-full">
                 <ArrowDown className="text-lg" />
                 Download Resume
@@ -117,16 +116,14 @@ const AboutMe = () => {
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  className="hidden sm:block absolute top-28 text-xs font-medium bg-[#fdad16] p-2 rounded-full w-max left-[-30px] z-40"
-                >
+                  className="hidden sm:block absolute top-28 text-xs font-medium bg-[#fdad16] p-2 rounded-full w-max left-[-30px] z-40">
                   See Projects
                 </motion.button>
               </Link>
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                className="hidden sm:flex absolute bottom-28  w-max right-[-30px] z-40"
-              >
+                className="hidden sm:flex absolute bottom-28  w-max right-[-30px] z-40">
                 <GetInTouchButton />
               </motion.button>
               <div className="absolute h-40 w-40 bg-[#f6eee1] rounded-full top-14 left-[70px] lg:left-24" />
