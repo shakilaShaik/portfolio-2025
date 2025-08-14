@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import Raju from "@/assets/Raju.png";
+// import Raju from "@/assets/Raju.png";
+import Shammu from "@/assets/Shammu-2.png"
 import Image from "next/image";
 import GitLab from "@/assets/skillIcons/GitLab";
 import { motion } from "framer-motion";
@@ -102,15 +103,16 @@ const AboutMe = () => {
             </Link>
           </div>
         </div>
+                  {/* <div className="bottom-10 lg:-bottom-20 h-[450px] w-[320px] md:w-[350px] bg-[#faa188] rounded-md shadow-md relative">  #*/}
         <div className="flex justify-center items-center">
-          <div className="bottom-10 lg:-bottom-20 h-[450px] w-[320px] md:w-[350px] bg-[#334b35] rounded-md shadow-md relative">
+          <div className="bottom-10 lg:-bottom-20 h-[450px] w-[320px] md:w-[350px] bg-[#fa9088] rounded-md shadow-md relative">
             <div>
               <Image
-                className="z-10 absolute top-1 right-0"
-                src={Raju}
+                className="z-10 absolute bottom-14 right-14 "
+                src={Shammu}
                 alt="user_shammu"
-                width={300}
-                height={300}
+                width={250}
+                height={200}
               />
               <Link href="#projects">
                 <motion.button

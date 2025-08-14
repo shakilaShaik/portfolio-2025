@@ -127,7 +127,7 @@ const ShuffleGrid = () => {
 const TechnicalSkills = () => {
   return (
     <div className="flex flex-col items-start gap-4 p-5">
-      <div className="text-[#fdad16]">
+      <div className="text-black">
         <TextAnimation text="Technical-Skills" />
       </div>
       <div>

@@ -47,7 +47,7 @@ const ExperienceData = [
 
 const Experience = () => {
   return (
-    <div className="w-full max-h-[450px] overflow-auto rounded-xl shadow-md text-black p-5  bg-yellow-600">
+    <div className="w-full max-h-[450px] overflow-auto rounded-xl shadow-md text-black p-5  bg-[#b3d6f9]">
       <div>
         <TextAnimation text="Experience" />
       </div>

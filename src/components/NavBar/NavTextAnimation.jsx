@@ -61,7 +61,7 @@ const AnimatedText = ({ text }) => {
   }, []);
 
   return (
-    <span className="text-[13px] sm:text-2xl text-yellow-500 font-bold tracking-widest">
+    <span className="text-[13px] sm:text-2xl text-black font-bold tracking-widest">
       {scrambledText}
     </span>
   );
