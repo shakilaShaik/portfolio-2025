@@ -17,7 +17,7 @@ const hoverTextStyle = {
 
 const hoverTextHoverStyle = {
   transform: "scale(1.2)",
-  color: "#fdad16",
+  color: "#c56363",
 };
 
 const BubbleText = ({ text }) => {
@@ -54,14 +54,14 @@ const BubbleText = ({ text }) => {
 const AboutMe = () => {
   return (
     <div id="about-me" className="md:h-[600px] bg-[#f6eee1] w-full p-4">
-      <div className="hidden md:block absolute top-14 font-londrina-outline text-[100px] tracking-[4px] font-medium text-yellow-600">
+      <div className="hidden md:block absolute top-14 font-londrina-outline text-[100px] tracking-[4px] font-medium text-[#c56363]">
         <p>ABOUT ME</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="flex my-20 h-max flex-col gap-4 px-4">
           <div className="text-[34px] md:text-[54px] font-bold font-serif">
             <h1>Hello,</h1>
-            <h1>I&apos;m Sharmila !</h1>
+            <h1 >I&apos;m Sharmila !</h1>
           </div>
           <div>
             <h1>
@@ -96,7 +96,7 @@ const AboutMe = () => {
               </div>
             </div>
             <Link href="/resume.pdf" download="download">
-              <Button className="p-2 border border-yellow-500 text-yellow-500 hover:text-black hover:bg-yellow-500 transition-all duration-500 rounded-full">
+              <Button className="p-2 border bg-[#c56363] border-black text-black  hover:bg-[#c56363] transition-all duration-500 rounded-full">
                 <ArrowDown className="text-lg" />
                 Download Resume
               </Button>
@@ -118,7 +118,7 @@ const AboutMe = () => {
                 <motion.button
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                  className="hidden sm:block absolute top-28 text-xs font-medium bg-[#fdad16] p-2 rounded-full w-max left-[-30px] z-40">
+                  className="hidden sm:block absolute top-28 text-xs font-medium bg-[#c56363] p-2 rounded-full w-max left-[-30px] z-40">
                   See Projects
                 </motion.button>
               </Link>

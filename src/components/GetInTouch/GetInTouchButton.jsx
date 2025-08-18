@@ -16,7 +16,7 @@ const GetInTouchButton = () => {
   return (
     <Drawer>
       <DrawerTrigger>
-        <Button className="rounded-full">Get In Touch</Button>
+        <Button className="rounded-full bg-[#c56363] text-black ">Get In Touch</Button>
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader>
