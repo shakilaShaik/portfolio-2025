@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import sideMenuUserImg from "@/assets/sideMenuUserImg.png";
+import sidePng from "@/assets/Shammu-2.png"
 import Image from "next/image";
 import { Menu } from "lucide-react";
 import {
@@ -55,7 +56,7 @@ const NavBar = () => {
                   <SheetTitle>
                     <div className="flex w-full   items-center px-4  gap-2 mt-4">
                       <Image
-                        src={sideMenuUserImg}
+                        src={sidePng}
                         alt=""
                         width={40}
                         height={40}
