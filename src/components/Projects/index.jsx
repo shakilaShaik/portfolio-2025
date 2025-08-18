@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import TrendSet from "@/assets/clone.png";
-import Mentorsklub from "@/assets/projectImgs/mentorsklub.png";
+// import Mentorsklub from "@/assets/projectImgs/mentorsklub.png";
+import FinanceDashboard from "@/assets/finance-dashboard.png"
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 // import TrendSet from "@/assets/projectImgs/trendset.png";
 
@@ -25,21 +26,21 @@ const projects = [
     imageUrl: TrendSet,
   },
   {
-    title: "Mentors Klub",
+    title: "Personal Finance Dashboard",
     description:
-      "A Full Stack Schedule Management web application, for metors and mentees. where users can book their slots for meetings",
+      "An Full stack personal finance web application that helps users track income, expenses,and spending patterns with interactive analytics. ",
     technologies: [
       "React",
       "Tailwind CSS",
-      "Materila-UI",
-      "Tailwind CSS",
-      "Node.js",
-      "Nest.js",
-      "MongoDB",
+      "FastApi",
+      "Alembic",
+      "Docker",
+      "Supabase",
+      "Postgresql"
     ],
-    liveUrl: "https://mentorsklub.vercel.app/",
-    githubUrl: "https://github.com/Abhisek0721/mentorsklub-frontend",
-    imageUrl: Mentorsklub,
+    liveUrl: "https://personal-finance-dashboard-psi-six.vercel.app",
+    githubUrl: "https://github.com/shakilaShaik/personal-finance-dashboard",
+    imageUrl: FinanceDashboard,
   },
 ];
 

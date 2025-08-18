@@ -18,31 +18,12 @@ const ExperienceData = [
       "Express",
       "React",
       "Git",
-      "web3",
+      "TypeScript",
+      "Web socket",
       "MongoDB",
     ],
   },
-  {
-    id: 1,
-    time: "Nov 2023 - July 2024",
-    companyName: "Frontlines Edutech",
-    role: "Java Full Stack Developer Intern",
-    description: [
-      "Completed backend development training at Frontlines Edutech, learning Core Java, JDBC, SQL, Hibernate, and Spring Boot.",
-      "Developed a Patient Management System as part of my internship, using Java, Spring Boot, Hibernate, and MySQL for efficient CRUD operations and backend logic.",
-
-      " Followed best practices for clean code, scalability, and modular design while managing version control with Git.",
-    ],
-    technologies: [
-      "Data Structures And Algorithms",
-      "core Java",
-      "JDBC",
-      "SQL",
-      "Hibernate",
-      "Springboot",
-      "React",
-    ],
-  },
+  
 ];
 
 const Experience = () => {
