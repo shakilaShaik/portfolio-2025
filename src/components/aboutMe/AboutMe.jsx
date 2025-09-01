@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Link from "next/link";
-// import Raju from "@/assets/Raju.png";
+import Link from "next/link"
 import Shammu from "@/assets/Shammu-2.png"
 import Image from "next/image";
 import GitLab from "@/assets/skillIcons/GitLab";
@@ -65,7 +64,7 @@ const AboutMe = () => {
           </div>
           <div>
             <h1>
-              Hello, {"I'm"} Sharmila, a passionate{" "}
+              Hello, {"I'm"} Sharmila, a skilled{" "}
               <span className="font-bold">
                 <BubbleText text="Full-Stack Developer" />
               </span>{" "}
@@ -95,7 +94,7 @@ const AboutMe = () => {
                 </Link>
               </div>
             </div>
-            <Link href="/resume.pdf" download="download">
+            <Link href="../assets/shakila_shaik_resume.pdf" download="download">
               <Button className="p-2 border bg-[#c56363] border-black text-black  hover:bg-[#c56363] transition-all duration-500 rounded-full">
                 <ArrowDown className="text-lg" />
                 Download Resume
