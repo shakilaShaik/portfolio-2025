@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import sideMenuUserImg from "@/assets/sideMenuUserImg.png";
+
 import sidePng from "@/assets/Shammu-2.png"
 import Image from "next/image";
 import { Menu } from "lucide-react";
