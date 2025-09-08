@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import TrendSet from "@/assets/clone.png";
+import virtual from "@/assets/vitual-assist.png"
 // import Mentorsklub from "@/assets/projectImgs/mentorsklub.png";
 import FinanceDashboard from "@/assets/finance-dashboard.png"
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
@@ -10,7 +11,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 const projects = [
   {
-    title: "E-commerce Platform",
+    title: " Full stack E-commerce Platform",
     description:
       "A full-stack e-commerce solution with user authentication, product management, and payment integration.",
     technologies: [
@@ -20,8 +21,10 @@ const projects = [
       "MongoDB",
       "Express.js",
       "Tailwind CSS",
+      "Stripe"
+
     ],
-    liveUrl: "https://frontend-clone-sandy.vercel.app/",
+    liveUrl: "https://blinkit-clone-frontend.vercel.app/",
     githubUrl: "https://github.com/shakilaShaik/Blinkit-clone",
     imageUrl: TrendSet,
   },
@@ -42,6 +45,24 @@ const projects = [
     githubUrl: "https://github.com/shakilaShaik/personal-finance-dashboard",
     imageUrl: FinanceDashboard,
   },
+
+  {
+    title:"Virtual Chat Assistant",
+    description:"An Artificial intelligence Application to assist like chatgpt. It is designed by gemini AI api and designed to give replies based on user's questions and continues a session for a conversation",
+    technologies:[
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDb",
+      "Gemini AI"
+    ],
+    liveUrl: "https://virtual-assistant-lilac-gamma.vercel.app",
+    githubUrl:"https://github.com/shakilaShaik/virtual-assistant",
+    imageUrl:virtual
+  },
+
+
+  
 ];
 
 export default function ProjectsSection() {

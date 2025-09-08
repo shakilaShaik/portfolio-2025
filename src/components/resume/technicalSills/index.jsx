@@ -43,10 +43,9 @@ const skillsData = [
 
 const skillsTextData = [
   "React.js",
-  "Java",
+  " core Java",
   "JavaScript",
   "Typescript",
-  "Redux",
   "Redux Toolkit",
   "Node.js",
   "Express.js",
@@ -56,9 +55,14 @@ const skillsTextData = [
   "Python",
   "RESTful API",
   "TailwindCSS",
-  "springboot",
-  "Hibernate",
   "Git",
+  "Django",
+  "FastApi",
+  "Flask",
+  "Docker",
+  "micro Services",
+  "ci/cd"
+
 ];
 
 const shuffle = (array) => {
