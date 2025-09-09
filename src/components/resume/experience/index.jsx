@@ -4,7 +4,7 @@ import React from "react";
 const ExperienceData = [
   {
     id: 2,
-    time: "July 2024 - Present",
+    time: "March 2024 - Present",
     companyName: "FlyingFox Labs Pvt Ltd",
     role: "Software Developer",
     description: [
@@ -21,6 +21,9 @@ const ExperienceData = [
       "TypeScript",
       "Web socket",
       "MongoDB",
+      "Keycloak",
+      "FastApi",
+      "OAuth"
     ],
   },
   
