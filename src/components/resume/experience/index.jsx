@@ -4,7 +4,7 @@ import React from "react";
 const ExperienceData = [
   {
     id: 2,
-    time: "Sept 2023 - Present",
+    time: "March 2024 - Present",
     companyName: "FlyingFox Labs Pvt Ltd",
     role: "Software Developer",
     description: [

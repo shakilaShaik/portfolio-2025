@@ -94,7 +94,7 @@ const AboutMe = () => {
                 </Link>
               </div>
             </div>
-            <Link href="/dev_shammu_MERN.pdf" download="download">
+            <Link href="/MERN_dev_shammu.pdf" download="download">
               <Button className="p-2 border bg-[#c56363] border-black text-black  hover:bg-[#c56363] transition-all duration-500 rounded-full">
                 <ArrowDown className="text-lg" />
                 Download Resume
